@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es-AR" class="con-movimiento">
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'; object-src 'none'; base-uri 'self'; worker-src 'self'" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Cómo conectar tu app de alumno a las cuentas del Universo UTNiano. Solo lectura, con el permiso del alumno y sin ver su contraseña." />
+    <meta name="theme-color" content="#0c0d10" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Entrar con el Universo | Universo UTNiano</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Universo UTNiano" />
+    <meta property="og:locale" content="es_AR" />
+    <meta property="og:title" content="Entrar con el Universo | Universo UTNiano" />
+    <meta property="og:description" content="Cómo conectar tu app de alumno a las cuentas del Universo UTNiano. Solo lectura, con el permiso del alumno y sin ver su contraseña." />
+    <meta property="og:url" content="https://universo.lutastudios.com/desarrolladores" />
+    <link rel="canonical" href="https://universo.lutastudios.com/desarrolladores" />
+    <meta property="og:image" content="https://universo.lutastudios.com/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script src="/universo.js"></script>
+    <script type="module" crossorigin src="/assets/index-BhiK290_.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-WkwZ5CU-.js">
+    <link rel="modulepreload" crossorigin href="/assets/FotoProyecto-BRX2Uv2W.js">
+    <link rel="stylesheet" crossorigin href="/assets/FotoProyecto-BySTh4gX.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-Dxi-NQof.css">
+  <noscript><style>.con-movimiento [data-aparece]{opacity:1!important;transform:none!important}</style></noscript>
+  </head>
+  <body>
+    <div id="root"><div class="sitio"><a class="saltar" href="#contenido">Ir al contenido</a><header class="cabecera"><div class="contenedor cabecera__fila"><a class="cabecera__marca" href="/" data-discover="true"><span class="logo-universo" role="img" aria-label="Universo UTNiano"><span class="logo-universo__marca" aria-hidden="true"><svg class="logo-universo__atras" viewBox="-30 -108 520 140" focusable="false"><ellipse cx="234" cy="-36" rx="262" ry="30" transform="rotate(-6 234 -36)" fill="none" stroke="#4a4a52" stroke-width="4"></ellipse></svg>UNIVERSO<svg class="logo-universo__frente" viewBox="-30 -108 520 140" focusable="false"><defs><linearGradient id="logo-haz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffd59a" stop-opacity="0"></stop><stop offset="0.75" stop-color="#ffd59a" stop-opacity="0.6"></stop><stop offset="1" stop-color="#fff4e2"></stop></linearGradient><radialGradient id="logo-luz"><stop offset="0" stop-color="#fff4e0"></stop><stop offset="0.3" stop-color="#ffd59a" stop-opacity="0.75"></stop><stop offset="1" stop-color="#ff9a50" stop-opacity="0"></stop></radialGradient><clipPath id="logo-frente"><rect x="-60" y="-35" width="362" height="120"></rect></clipPath></defs><g transform="rotate(-6 234 -36)"><ellipse cx="234" cy="-36" rx="262" ry="30" fill="none" stroke="#7a7a84" stroke-width="4" clip-path="url(#logo-frente)"></ellipse><path d="M -16 -26 A 262 30 0 0 0 300 -7" fill="none" stroke="url(#logo-haz)" stroke-width="6" stroke-linecap="round"></path><circle cx="300" cy="-7" r="16" fill="url(#logo-luz)"></circle><circle cx="300" cy="-7" r="3" fill="#fff4e2"></circle></g><path transform="translate(470 -84)" d="M0 -16 C2 -3 3 -2 16 0 C3 2 2 3 0 16 C-2 3 -3 2 -16 0 C-3 -2 -2 -3 0 -16Z" fill="#fff4e2"></path><circle cx="470" cy="-84" r="14" fill="url(#logo-luz)" opacity="0.6"></circle></svg></span><span class="logo-universo__puntos" aria-hidden="true"><i style="background: rgb(255, 122, 89);"></i><i style="background: rgb(90, 169, 255);"></i><i style="background: rgb(176, 140, 255);"></i></span><span class="logo-universo__bajada" aria-hidden="true">utniano</span></span></a><button type="button" class="cabecera__boton" aria-expanded="false" aria-controls="menu">Menú</button><nav id="menu" class="cabecera__menu" aria-label="Principal"><a class="" href="/" data-discover="true">Herramientas</a><a class="" href="/proyectos" data-discover="true">Proyectos</a><a class="" href="/ayuda" data-discover="true">Ayuda</a><a class="" href="/anuncios" data-discover="true">Anuncios</a><a class="" href="/sumarse" data-discover="true">Sumarse</a><a class="cabecera__cuenta" href="/ayuda" data-discover="true">Entrar</a></nav></div></header><main id="contenido"><div class="contenedor pagina dev"><header class="dev__cabeza"><span class="rotulo">para proyectos de alumnos</span><h1>Entrar con el Universo</h1><p>Tus usuarios entran con su cuenta del Universo UTNiano, la misma de El Santo Resumen. Con su permiso, tu app lee algunos datos suyos.</p><ul class="dev__garantias"><li>Nunca ves la contraseña. El alumno entra en nuestra página, no en la tuya.</li><li>Nunca tocás la base. Todo pasa por la API.</li><li>Solo leés. No hay forma de escribir en la cuenta del alumno.</li><li>El alumno ve qué pedís y te saca el permiso cuando quiera.</li></ul></header><section class="dev__bloque" aria-labelledby="dev-pedir"><h2 id="dev-pedir">Pedir acceso</h2><p class="dev__bajada">Entrá con tu cuenta del Universo y mandá una consulta con el tema proyecto. Contá esto.</p><ul class="dev__lista"><li>El nombre de la app y su link, con https.</li><li>Las direcciones de vuelta, hasta 10 y exactas. Ahí vuelve el alumno después de decidir.</li><li>Qué alcances necesitás y para qué.</li><li>Si tiene servidor propio o vive solo en el navegador. Con servidor lleva secreto.</li><li>Si querés probar en tu compu. Mientras está en pruebas se habilita http://localhost.</li></ul><p class="dev__nota">Si se aprueba, te llegan tu client_id y las direcciones de SERVICIO y PERMISO. El secreto se muestra una sola vez. Si lo perdés, se rota y el viejo deja de andar.</p><a class="boton" href="/ayuda/nueva?tema=proyecto" data-discover="true">Pedir acceso</a><p class="dev__nota">Tu proyecto también puede tener su página en el universo, con su presentación, noticias y canales. La cuenta para editarla se pide por una consulta. <a href="/mi-proyecto" data-discover="true">Soy responsable de un proyecto</a></p></section><section class="dev__bloque" aria-labelledby="dev-alcances"><h2 id="dev-alcances">Qué podés leer</h2><dl class="dev__alcances"><div><dt><code>perfil</code></dt><dd>Un id del alumno solo para tu app. Va siempre.</dd></div><div><dt><code>materias</code></dt><dd>Las materias que tiene aprobadas, regulares y en curso en el mapa de la carrera.</dd></div></dl><p class="dev__nota">El id de perfil es siempre el mismo para ese alumno en tu app. Otra app recibe otro, así nadie cruza datos. Pedí solo lo que usás. Cada alcance de más es un motivo para que te digan que no.</p></section><section class="dev__bloque" aria-labelledby="dev-flujo"><h2 id="dev-flujo">Cómo funciona</h2><p class="dev__bajada">OAuth 2.0 con código de autorización y PKCE S256, como entrar con Google.</p><ol class="dev__pasos"><li><h3>Armás el desafío</h3><p>Un verificador al azar y su SHA-256 en base64url. PKCE va siempre, tengas secreto o no.</p></li><li><h3>Mandás al alumno a PERMISO</h3><p>Con tu client_id, la dirección de vuelta, los alcances, un state y el desafío.</p></li><li><h3>El alumno decide</h3><p>Entra con su cuenta del Universo en nuestra página y ve qué pedís.</p></li><li><h3>Vuelve a tu app</h3><p>Con code y tu state, o con error=access_denied si dijo que no.</p></li><li><h3>Canjeás el código</h3><p>Por un token de acceso de 1 hora y uno de renovación de 30 días.</p></li><li><h3>Leés la API</h3><p>Con el token de acceso. Cuando vence, lo renovás.</p></li></ol><div class="dev__detalle"><figure class="dev-codigo"><figcaption><span id="_r_0_">La ida</span><button type="button" class="dev-codigo__copiar" aria-label="Copiar La ida">Copiar</button><span class="solo-lectores" aria-live="polite"></span></figcaption><pre tabindex="0" aria-labelledby="_r_0_"><code>PERMISO?client_id=app_xxxxxxxxxxxxxxxxxxxxxx
+       &amp;redirect_uri=https%3A%2F%2Fmiapp.ejemplo.com%2Fvuelta
+       &amp;scope=perfil%20materias
+       &amp;state=&lt;al azar, lo guardás&gt;
+       &amp;code_challenge=&lt;desafío&gt;
+       &amp;code_challenge_method=S256</code></pre></figure><p>La dirección de vuelta tiene que ser exactamente una de las registradas. Al volver, revisá que el state sea el que guardaste.</p><figure class="dev-codigo"><figcaption><span id="_r_1_">La vuelta</span><button type="button" class="dev-codigo__copiar" aria-label="Copiar La vuelta">Copiar</button><span class="solo-lectores" aria-live="polite"></span></figcaption><pre tabindex="0" aria-labelledby="_r_1_"><code>https://miapp.ejemplo.com/vuelta?code=&lt;código&gt;&amp;state=&lt;tu state&gt;
+https://miapp.ejemplo.com/vuelta?error=access_denied&amp;state=&lt;tu state&gt;</code></pre></figure><p>El código vale 5 minutos y un solo uso. Si algo no cuadra, la página de permiso muestra el error y no vuelve a tu app.</p><figure class="dev-codigo"><figcaption><span id="_r_2_">Canjear el código, app del navegador</span><button type="button" class="dev-codigo__copiar" aria-label="Copiar Canjear el código, app del navegador">Copiar</button><span class="solo-lectores" aria-live="polite"></span></figcaption><pre tabindex="0" aria-labelledby="_r_2_"><code>curl -X POST "SERVICIO?a=oauth-token" \
+  -d grant_type=authorization_code \
+  -d code=&lt;código&gt; \
+  -d redirect_uri=https://miapp.ejemplo.com/vuelta \
+  -d client_id=app_xxxxxxxxxxxxxxxxxxxxxx \
+  -d code_verifier=&lt;verificador&gt;</code></pre></figure><figure class="dev-codigo"><figcaption><span id="_r_3_">Canjear el código, app con servidor</span><button type="button" class="dev-codigo__copiar" aria-label="Copiar Canjear el código, app con servidor">Copiar</button><span class="solo-lectores" aria-live="polite"></span></figcaption><pre tabindex="0" aria-labelledby="_r_3_"><code>curl -X POST "SERVICIO?a=oauth-token" \
+  -u "app_xxxxxxxxxxxxxxxxxxxxxx:$SECRETO_APP" \
+  -d grant_type=authorization_code \
+  -d code=&lt;código&gt; \
+  -d redirect_uri=https://miapp.ejemplo.com/vuelta \
+  -d code_verifier=&lt;verificador&gt;</code></pre></figure><figure class="dev-codigo"><figcaption><span id="_r_4_">La respuesta</span><button type="button" class="dev-codigo__copiar" aria-label="Copiar La respuesta">Copiar</button><span class="solo-lectores" aria-live="polite"></span></figcaption><pre tabindex="0" aria-labelledby="_r_4_"><code>{
+  "access_token": "uat_…",
+  "token_type": "Bearer",
+  "expires_in": 3600,
+  "refresh_token": "urt_…",
+  "scope": "perfil materias"
+}</code></pre></figure><p>El scope de la respuesta es lo que el alumno te dio de verdad. Fijate ahí, no en lo que pediste.</p><figure class="dev-codigo"><figcaption><span id="_r_5_">Leer la API</span><button type="button" class="dev-codigo__copiar" aria-label="Copiar Leer la API">Copiar</button><span class="solo-lectores" aria-live="polite"></span></figcaption><pre tabindex="0" aria-labelledby="_r_5_"><code>curl "SERVICIO?a=api-yo" -H "Authorization: Bearer uat_…"
+{ "id": "2f1c…", "alcances": ["perfil", "materias"] }
+
+curl "SERVICIO?a=api-materias" -H "Authorization: Bearer uat_…"
+{
+  "materias": [
+    { "id": "analisis-matematico-i", "nombre": "Análisis Matemático I", "estado": "aprobada" },
+    { "id": "ingles-i", "nombre": "Inglés I", "estado": "regular" },
+    { "id": "analisis-matematico-ii", "nombre": "Análisis Matemático II", "estado": "en_curso" }
+  ],
+  "actualizado": "2026-11-24T18:30:00.000Z"
+}</code></pre></figure><p>Estado es aprobada, regular o en_curso. Lo que no aparece, el alumno no lo marcó. El id de cada materia no cambia.</p><figure class="dev-codigo"><figcaption><span id="_r_6_">Renovar y cerrar sesión</span><button type="button" class="dev-codigo__copiar" aria-label="Copiar Renovar y cerrar sesión">Copiar</button><span class="solo-lectores" aria-live="polite"></span></figcaption><pre tabindex="0" aria-labelledby="_r_6_"><code>curl -X POST "SERVICIO?a=oauth-token" \
+  -d grant_type=refresh_token \
+  -d refresh_token=urt_… \
+  -d client_id=app_xxxxxxxxxxxxxxxxxxxxxx
+
+curl -X POST "SERVICIO?a=oauth-revocar" \
+  -d token=urt_… \
+  -d client_id=app_xxxxxxxxxxxxxxxxxxxxxx</code></pre></figure><p>Cada renovación trae un par nuevo y el token viejo deja de servir. Si uno se usa dos veces, se corta todo ese ingreso y el alumno vuelve a entrar. Renová desde un solo lugar.</p></div></section><section class="dev__bloque" aria-labelledby="dev-ejemplo"><h2 id="dev-ejemplo">Ejemplo para el navegador</h2><p class="dev__bajada">Sin librerías, con crypto.subtle. El verificador y el state esperan en sessionStorage hasta la vuelta.</p><figure class="dev-codigo"><figcaption><span id="_r_7_">Ejemplo completo</span><button type="button" class="dev-codigo__copiar" aria-label="Copiar Ejemplo completo">Copiar</button><span class="solo-lectores" aria-live="polite"></span></figcaption><pre tabindex="0" aria-labelledby="_r_7_"><code>const SERVICIO = 'https://…'; // te la pasamos con tu client_id
+const PERMISO = 'https://…';
+const CLIENT_ID = 'app_xxxxxxxxxxxxxxxxxxxxxx';
+const VUELTA = 'https://miapp.ejemplo.com/vuelta';
+
+const base64url = (bytes) =&gt;
+  btoa(String.fromCharCode(...new Uint8Array(bytes))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+const alAzar = () =&gt; base64url(crypto.getRandomValues(new Uint8Array(32)));
+
+export async function entrar() {
+  const verificador = alAzar();
+  const state = alAzar();
+  const desafio = base64url(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(verificador)));
+  sessionStorage.setItem('universo', JSON.stringify({ verificador, state }));
+  const url = new URL(PERMISO);
+  url.search = new URLSearchParams({
+    client_id: CLIENT_ID,
+    redirect_uri: VUELTA,
+    scope: 'perfil materias',
+    state,
+    code_challenge: desafio,
+    code_challenge_method: 'S256',
+  }).toString();
+  location.assign(url);
+}
+
+// En la página de VUELTA:
+export async function alVolver() {
+  const p = new URLSearchParams(location.search);
+  const guardado = JSON.parse(sessionStorage.getItem('universo') ?? 'null');
+  sessionStorage.removeItem('universo');
+  history.replaceState(null, '', location.pathname); // saca el código de la barra
+  if (!guardado || p.get('state') !== guardado.state) throw new Error('La vuelta no es de este ingreso');
+  if (p.get('error')) return null; // el alumno dijo que no
+  const res = await fetch(`${SERVICIO}?a=oauth-token`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({
+      grant_type: 'authorization_code',
+      code: p.get('code'),
+      redirect_uri: VUELTA,
+      client_id: CLIENT_ID,
+      code_verifier: guardado.verificador,
+    }),
+  });
+  if (!res.ok) throw new Error((await res.json()).error);
+  return res.json(); // { access_token, refresh_token, expires_in, scope }
+}</code></pre></figure></section><section class="dev__bloque" aria-labelledby="dev-errores"><h2 id="dev-errores">Errores</h2><p class="dev__bajada">Llegan como { "error": "&lt;código&gt;" }. Con invalid_token o invalid_grant al renovar, el alumno vuelve a entrar.</p><div class="dev__tabla" tabindex="0" role="region" aria-label="Tabla de errores"><table role="table"><thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">Dónde</th><th scope="col" role="columnheader">Estado</th><th scope="col" role="columnheader">Error</th><th scope="col" role="columnheader">Qué pasó</th></tr></thead><tbody role="rowgroup"><tr role="row"><td role="cell">oauth-token</td><td role="cell">400</td><td role="cell"><code>invalid_request</code></td><td role="cell">Falta un dato, va repetido o el cuerpo no es formulario ni JSON.</td></tr><tr role="row"><td role="cell">oauth-token</td><td role="cell">401</td><td role="cell"><code>invalid_client</code></td><td role="cell">client_id o secreto mal, app apagada o falta el secreto de una app con servidor.</td></tr><tr role="row"><td role="cell">oauth-token</td><td role="cell">400</td><td role="cell"><code>invalid_grant</code></td><td role="cell">Código o token vencido, usado, de otra app, otra dirección de vuelta o verificador que no corresponde.</td></tr><tr role="row"><td role="cell">oauth-token</td><td role="cell">400</td><td role="cell"><code>invalid_scope</code></td><td role="cell">Pediste un alcance que no tenés.</td></tr><tr role="row"><td role="cell">oauth-token</td><td role="cell">400</td><td role="cell"><code>unsupported_grant_type</code></td><td role="cell">Solo authorization_code y refresh_token.</td></tr><tr role="row"><td role="cell">oauth-token</td><td role="cell">429</td><td role="cell"><code>tope-ip</code></td><td role="cell">Muchas fallas seguidas desde tu conexión. Esperá 15 minutos.</td></tr><tr role="row"><td role="cell">API</td><td role="cell">401</td><td role="cell"><code>invalid_token</code></td><td role="cell">Falta el token, venció, lo revocaron o el alumno te sacó el permiso.</td></tr><tr role="row"><td role="cell">API</td><td role="cell">403</td><td role="cell"><code>insufficient_scope</code></td><td role="cell">El token no tiene el alcance de esa ruta.</td></tr><tr role="row"><td role="cell">todas</td><td role="cell">429</td><td role="cell"><code>tope-app</code></td><td role="cell">Tu app pasó el tope de la hora (1000 tokens o 10 000 lecturas).</td></tr></tbody></table></div></section><section class="dev__bloque dev__reglas" aria-labelledby="dev-reglas"><h2 id="dev-reglas">Reglas</h2><div class="dev__columnas"><div><h3>Hacé</h3><ul class="dev__lista"><li>El secreto va solo en tu servidor, nunca en el navegador, una app móvil ni un repo.</li><li>Tratá los tokens como contraseñas. Fuera de logs, analíticas y URLs.</li><li>Leé cuando lo necesitás, no en cada clic.</li><li>Si el alumno cierra sesión, revocá su token de renovación.</li><li>Contá en tu app qué hacés con los datos. Son del alumno.</li></ul></div><div><h3>No hagas</h3><ul class="dev__lista"><li>Pedir el usuario o la contraseña del Universo, ni imitar nuestra pantalla.</li><li>Leer datos de un alumno sin su permiso o con el token de otro.</li><li>Cruzar el id de perfil con otras apps o averiguar quién es el alumno.</li><li>Vender, publicar o pasar los datos de los alumnos.</li><li>Probar la seguridad del servicio o saltar los topes.</li></ul></div></div><p class="dev__nota">Una app que no cumple se apaga y sus usuarios dejan de poder entrar. Si encontrás una falla de seguridad, contala primero en una consulta.</p></section></div></main><footer class="pie"><div class="contenedor pie__fila"><div class="pie__marca"><span class="logo-universo" role="img" aria-label="Universo UTNiano" style="font-size: 24px;"><span class="logo-universo__marca" aria-hidden="true"><svg class="logo-universo__atras" viewBox="-30 -108 520 140" focusable="false"><ellipse cx="234" cy="-36" rx="262" ry="30" transform="rotate(-6 234 -36)" fill="none" stroke="#4a4a52" stroke-width="4"></ellipse></svg>UNIVERSO<svg class="logo-universo__frente" viewBox="-30 -108 520 140" focusable="false"><defs><linearGradient id="logo-haz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffd59a" stop-opacity="0"></stop><stop offset="0.75" stop-color="#ffd59a" stop-opacity="0.6"></stop><stop offset="1" stop-color="#fff4e2"></stop></linearGradient><radialGradient id="logo-luz"><stop offset="0" stop-color="#fff4e0"></stop><stop offset="0.3" stop-color="#ffd59a" stop-opacity="0.75"></stop><stop offset="1" stop-color="#ff9a50" stop-opacity="0"></stop></radialGradient><clipPath id="logo-frente"><rect x="-60" y="-35" width="362" height="120"></rect></clipPath></defs><g transform="rotate(-6 234 -36)"><ellipse cx="234" cy="-36" rx="262" ry="30" fill="none" stroke="#7a7a84" stroke-width="4" clip-path="url(#logo-frente)"></ellipse><path d="M -16 -26 A 262 30 0 0 0 300 -7" fill="none" stroke="url(#logo-haz)" stroke-width="6" stroke-linecap="round"></path><circle cx="300" cy="-7" r="16" fill="url(#logo-luz)"></circle><circle cx="300" cy="-7" r="3" fill="#fff4e2"></circle></g><path transform="translate(470 -84)" d="M0 -16 C2 -3 3 -2 16 0 C3 2 2 3 0 16 C-2 3 -3 2 -16 0 C-3 -2 -2 -3 0 -16Z" fill="#fff4e2"></path><circle cx="470" cy="-84" r="14" fill="url(#logo-luz)" opacity="0.6"></circle></svg></span><span class="logo-universo__puntos" aria-hidden="true"><i style="background: rgb(255, 122, 89);"></i><i style="background: rgb(90, 169, 255);"></i><i style="background: rgb(176, 140, 255);"></i></span><span class="logo-universo__bajada" aria-hidden="true">utniano</span></span><p>Herramientas no oficiales, sin relación con la UTN. El código de cada una es abierto.</p></div><p class="pie__enlaces"><a href="https://whatsapp.com/channel/0029VbE401KAInPqADnMxN1C" target="_blank" rel="noreferrer">Canal oficial<span class="solo-lectores"> de WhatsApp (se abre en otra pestaña)</span></a><a href="/privacidad" data-discover="true">Tu privacidad</a><span>Powered by <a href="https://lutastudios.com/" target="_blank" rel="noreferrer">Luta Studios<span class="solo-lectores"> (se abre en otra pestaña)</span></a></span></p></div></footer></div><div class="avisos" role="status" aria-live="polite"></div></div>
+  </body>
+</html>
